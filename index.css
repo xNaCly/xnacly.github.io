@@ -25,9 +25,9 @@
 	padding-top: 0.5rem;
 }
 #contribution {
-	background: #8ab4f8 !important;
+	/* background: #8ab4f8 !important; */
 	border: none;
-	color: #000;
+	/* color: #000; */
 	width: 150px;
 }
 #contribution > span {
@@ -35,9 +35,9 @@
 	color: black;
 }
 #solo {
-	background: #fdd663 !important;
+	/* background: #fdd663 !important; */
 	border: none;
-	color: black;
+	/* color: black; */
 	width: 150px;
 	margin: 0 !important;
 }
@@ -46,8 +46,8 @@
 	color: black;
 }
 #about_card {
-/* 	flex-direction: row !important; */
-	height: 13rem !important;
+	/* 	flex-direction: row !important; */
+	height: 15rem !important;
 }
 #about_card_ {
 	height: fit-content !important;
