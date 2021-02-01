@@ -76,10 +76,7 @@
 				<div class="card border-light mb-3 col" id="about_card">
 					<div class="card-header">About</div>
 					<div class="card-body text-dark">
-						<p class="card-text">
-							Im a 17 year old german student and am interested in technologies and programming. I enjoy
-							procrastinating, exercising and listening to music.
-						</p>
+						<p class="card-text" id="about_me"></p>
 					</div>
 				</div>
 
@@ -182,5 +179,11 @@
 			integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			document.getElementById("about_me").innerText = `Im a ${
+				new Date().getFullYear() - 2003
+			} year old german student and am interested in technologies and programming.
+			I enjoy procrastinating, exercising and listening to music.`;
+		</script>
 	</body>
 </html>
