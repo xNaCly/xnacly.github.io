@@ -4,7 +4,6 @@
 .hr_first {
 	width: 50%;
 }
-
 .project_main_hr_container {
 	margin: 0.5rem;
 	display: flex;
@@ -25,7 +24,6 @@
 .card-body {
 	padding-top: 0.5rem;
 }
-
 #contribution {
 	background: #8ab4f8 !important;
 	border: none;
@@ -46,4 +44,29 @@
 #solo > span {
 	background-color: white !important;
 	color: black;
+}
+#about_card {
+	flex-direction: row !important;
+	height: 13rem !important;
+}
+#about_card_ {
+	height: fit-content !important;
+}
+#about_card > .card-header {
+	border: none;
+}
+.list-group-item > img {
+	max-width: 2rem;
+}
+.list-group.list-group-flush {
+	width: 100%;
+}
+#main_ > .row {
+	margin: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#main_ {
+	margin-top: 5rem;
 }
