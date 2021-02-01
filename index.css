@@ -1,39 +1,20 @@
-.projects_main {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 20px;
-}
-
-.project_main_headline {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 20px;
-}
-.nav-link {
-	color: #0d6efd !important;
-}
 .card-text {
 	font-style: italic;
 }
 .hr_first {
 	width: 50%;
 }
+
 .project_main_hr_container {
+	margin: 0.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.card-img-top {
-	max-width: 250px !important;
-	max-height: 130px !important;
-}
 
 .card {
-	width: 250px;
-	height: 310px;
 	margin: 5px;
+	padding: 0 !important;
 }
 .card > .card-body > a {
 	margin-top: 12px;
@@ -47,7 +28,22 @@
 
 #contribution {
 	background: #8ab4f8 !important;
+	border: none;
+	color: #000;
+	width: 150px;
+}
+#contribution > span {
+	background-color: white !important;
+	color: black;
 }
 #solo {
 	background: #fdd663 !important;
+	border: none;
+	color: black;
+	width: 150px;
+	margin: 0 !important;
+}
+#solo > span {
+	background-color: white !important;
+	color: black;
 }
