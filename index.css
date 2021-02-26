@@ -47,7 +47,8 @@
 }
 #about_card {
 	/* 	flex-direction: row !important; */
-	height: 15rem !important;
+	min-height: 15rem !important;
+	height: auto;
 }
 #about_card_ {
 	height: fit-content !important;
