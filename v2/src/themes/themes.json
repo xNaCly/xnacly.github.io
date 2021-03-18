@@ -1,0 +1,20 @@
+{
+	"light": {
+		"--accent": "rgba(128, 128, 128, 0.123)",
+		"--accent2": "rgba(128, 128, 128, 0.246)",
+		"--background": "white",
+		"--background2": "white",
+		"--text-color": "black",
+		"--text-color2": "grey",
+		"--font": "monospace"
+	},
+	"dark": {
+		"--accent": "#4e4e4e",
+		"--accent2": "#3d3d3d",
+		"--background": "#1d1f21",
+		"--background2": "#282a2e",
+		"--text-color": "#ffffff",
+		"--text-color2": "#5f89ac",
+		"--font": "monospace"
+	}
+}

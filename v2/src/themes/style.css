@@ -1,0 +1,5 @@
+* {
+	background-color: var(--background);
+	font-family: var(--font);
+	color: var(--text-color);
+}
