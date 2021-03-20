@@ -1,9 +1,0 @@
-{
-	"toggledByDefault": {
-		"about": true,
-		"githubStats": false,
-		"skillSet": true
-	},
-	"hidden": ["githubStats"],
-	"defaultTheme": "xnacly"
-}
